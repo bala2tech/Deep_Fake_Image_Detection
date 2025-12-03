@@ -85,3 +85,10 @@ Digital forensics
 
 Image authenticity checks
 
+Data Set link:
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("tapakah68/face-segmentation")
+
+print("Path to dataset files:", path)
